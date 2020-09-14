@@ -1,11 +1,13 @@
 import React from 'react';
-
+// component
+import Form from './Components/Form';
+//style
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Animated Form</h1>
+      <Form />
     </div>
   );
 }
